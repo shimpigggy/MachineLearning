@@ -26,7 +26,7 @@ https://developer.nvidia.com/cuda-toolkit-archive
 conda에 가상 환경 생성
 <br/>**conda create -n NAME pip python=3.5** /*환경 만들기(python 3.5) -> y/n 나오면 y 누를것.*/
 <br/>**activate NAME** /*환경 활성화*/
-<br/>**python -m pip install --upgrade pip** /*일단 pip 를 업그레이드 시켜준다.*/
+<br/>**pip install --upgrade pip** /*일단 pip 를 업그레이드 시켜준다.*/
 <br/>**pip install --ignore-installed --upgrade tensorflow-gpu==1.12.0** /*텐서플로우 GPU 버전 설치*/
 <br/><br/><br/>
 
