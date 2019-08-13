@@ -29,8 +29,16 @@ conda에 가상 환경 생성
 <br/>**pip install --upgrade pip** /*일단 pip 를 업그레이드 시켜준다.*/
 <br/>만약 안되면 **easy_install -U pip**
 <br/>**pip install --ignore-installed --upgrade tensorflow-gpu==1.12.0** /*텐서플로우 GPU 버전 설치*/
-<br/><br/><br/>
+<br/>
+## Tensorflwo 설치 확인
 
+pycharm에서
+<br/>> import tensorflow as tf
+<br/>> s= tf.constant("hello")
+<br/>> sess = tf.Session()
+<br/>> print(sess.run(s))
+<br/> <br/>해서 gpu 사용 여부를 보면 된다.
+<br/><br/>
 
 ## 참고 사이트
 
