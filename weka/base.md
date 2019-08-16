@@ -25,6 +25,10 @@
 
 - Nominal: 이산적
 - Numeric: 연속적인 숫자
+- Discretize: 필터 기능으로 Numeric -> Nominal 
+<br/><br/><br/>
+## 
+
 <br/><br/><br/>
 ## 참고 사이트
 
