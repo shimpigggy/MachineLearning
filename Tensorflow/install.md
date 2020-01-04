@@ -30,6 +30,8 @@ conda에 가상 환경 생성
 <br/>만약 안되면 **easy_install -U pip**
 <br/>**pip install --ignore-installed --upgrade tensorflow-gpu==1.12.0** /*텐서플로우 GPU 버전 설치*/
 <br/>
+<br/>numpy -> **pip install "numpy<1.17"
+<br/>
 ## Tensorflwo 설치 확인
 
 pycharm에서
